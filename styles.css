@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-paleBlue: hsl(225, 100%, 94%);
+    --primary-brightBlue: hsl(245, 75%, 52%);
+
+    --neutral-veryPaleBlue: hsl(225, 100%, 98%);
+    --neutral-desaturatedBlue: hsl(224, 23%, 55%);
+    --neutral-darkBlue: hsl(223, 47%, 23%);
+
+    --fs-para: 16px;
+    --fontFamily: "Red Hat Display", sans-serif;
+    --fw-light:500;
+    --fw-regular:700;
+    --fw-bold:900;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fontFamily);
+    background-color: var(--primary-paleBlue);
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.card{
+    width: 20rem;
+    border-radius: 1rem;
+    background-color: var(--neutral-veryPaleBlue);
+}
+
+p{
+    font-size: var(--fs-para);
+    color: var(--neutral-desaturatedBlue);
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.img-container img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.text-container {
+    padding: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.desc {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #5555550c;
+    margin-bottom: 1.5rem;
+}
+
+.text-wrapper {
+    text-align: left;
+}
+
+.text-wrapper p {
+    margin-top: -1rem;
+}
+
+a{
+    color: var(--primary-brightBlue);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--neutral-desaturatedBlue);
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--primary-brightBlue);
+    background-color: var(--primary-brightBlue);
+    color: white;
+    box-shadow: 0 5px 20px #999;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--neutral-desaturatedBlue);
+    border: 1px solid var(--neutral-desaturatedBlue);
+}
+
+.db:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
