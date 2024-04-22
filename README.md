@@ -28,8 +28,9 @@ Users should be able to:
 
 ### Links
 
-- GitHub Repo URL: [GitHub repo URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- GitHub Repo URL: [GitHub repo URL](https://github.com/KrishnaPoddar1/OrderSummary.git)
+- Live Site URL: [Live site URL](https://krishnapoddar1.github.io/OrderSummary/
+)
 
 ## My process
 
